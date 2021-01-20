@@ -272,6 +272,85 @@ p {
   margin-right: 10px;
 }
 
+/* Оформление формы в footer */
+
+.container.foot {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.subscribe {
+  margin-left: 94px;
+  width: 570px;
+  height: 86px;
+}
+
+.subscribe p {
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.subscribe-form {
+  display: flex;
+  align-items: center;
+}
+
+.subscribe-form input {
+  padding: 16px 16px;
+  min-width: 358px;
+  height: 50px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #2f303a;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+.btn-sub {
+  display: flex;
+  align-items: center;
+  padding: 10px 32px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+
+  margin-left: 12px;
+
+  background-color: #2196f3;
+}
+
+.btn-sub > .text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 187%;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.icon-subscribe {
+  margin-left: 10px;
+
+  fill: #fff;
+}
+
 /* *!Герой */
 .hero {
   padding-bottom: 200px;
